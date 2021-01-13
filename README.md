@@ -26,6 +26,6 @@ var (
 ```
 
 6. 编译go文件：
-`go build shellcode_loader.go`
+`go build -ldflags "-H windowsgui" shellcode_loader.go`
 
 7. 运行shellcode_loader.exe即可
